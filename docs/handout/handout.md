@@ -1,4 +1,4 @@
-# [PDF](https://lionelsemion.github.io/Python-Kurs/handout/handout.pdf)
+[Als PDF exportieren](https://lionelsemion.github.io/Python-Kurs/handout/handout.pdf)
 
 
 # Python installieren
