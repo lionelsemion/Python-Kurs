@@ -1,3 +1,6 @@
+# [PDF](https://lionelsemion.github.io/Python-Kurs/handout/handout.pdf)
+
+
 # Python installieren
 
 **Nur für Windows! Wer macOS oder Linux nutzt, bitte melden.**
