@@ -474,4 +474,8 @@ while not stop:
     sleep(0.1)
 ```
 
+# Flappy Bird
+
+Tutorial: [https://www.youtube.com/watch?v=6UicVzXe5o8](https://www.youtube.com/watch?v=6UicVzXe5o8)
+
 <div style="page-break-after: always;"></div>
