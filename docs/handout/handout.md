@@ -85,9 +85,9 @@ Nach der Installation auf "Finish" klicken. VS Code ist jetzt installiert und st
 
 > **Hinweise**
 >
-> - Probier die Beispiele aus und schreib sie dir in deinen `spickzettel.py`.
-> - Wenn du Fragen hast, melde dich bitte. Wir helfen gerne!
-> - Falls dein Englisch ein bisschen rostig ist, kannst du jeweils auf den zweiten Link in Klammern gehen für eine Übersetzung. Die Übersetzungen sind teilweise ein bisschen unverständlich, frag einfach bei Unklarheiten!
+> -   Probier die Beispiele aus und schreib sie dir in deinen `spickzettel.py`.
+> -   Wenn du Fragen hast, melde dich bitte. Wir helfen gerne!
+> -   Falls dein Englisch ein bisschen rostig ist, kannst du jeweils auf den zweiten Link in Klammern gehen für eine Übersetzung. Die Übersetzungen sind teilweise ein bisschen unverständlich, frag einfach bei Unklarheiten!
 
 ## 1. Variablen
 
@@ -96,19 +96,19 @@ Gehe auf **[diesen Link](https://www.w3schools.com/python/python_variables.asp)*
 
 Bearbeite die Kapitel
 
-- "Variable Names"
-- "Assign Multiple Values"
-- "Output Variables"
-- "Variable Exercises"
+-   "Variable Names"
+-   "Assign Multiple Values"
+-   "Output Variables"
+-   "Variable Exercises"
 
 "Global Variables" ist freiwillig
 
 Auf Deutsch:
 
-- "Variablennamen"
-- "Mehrere Werte zuweisen"
-- "Ausgabevariablen"
-- "Variable Übungen"
+-   "Variablennamen"
+-   "Mehrere Werte zuweisen"
+-   "Ausgabevariablen"
+-   "Variable Übungen"
 
 "Globale Variablen" ist freiwillig
 
@@ -189,17 +189,17 @@ Die automatische Übersetzung übersetzt "string" als "Saite" - hier wäre eine 
 
 Bearbeite die Kapitel
 
-- "Slicing Strings"
-- "Modify Strings"
-- "String Concatenation"
-- "String Exercises"
+-   "Slicing Strings"
+-   "Modify Strings"
+-   "String Concatenation"
+-   "String Exercises"
 
 Auf Deutsch:
 
-- _"Saiten schneiden"_ oder besser **"String schneiden"**
-- "Zeichenfolgen ändern"
-- "Verketten von Zeichenfolgen"
-- _"Saitenübungen"_ oder besser **"String-Übungen"**
+-   _"Saiten schneiden"_ oder besser **"String schneiden"**
+-   "Zeichenfolgen ändern"
+-   "Verketten von Zeichenfolgen"
+-   _"Saitenübungen"_ oder besser **"String-Übungen"**
 
 ## 5. If ... Else ...
 
@@ -447,3 +447,31 @@ personalisierte_begruessung("Jaron", 14)
 Funktionen sind ein grundlegendes Werkzeug in Python, das dir hilft, deinen Code besser zu organisieren und wiederzuverwenden.
 
 **Das war's mit den Grundlagen von Python.**
+
+# Automatisieren mit Python
+
+Aktuelle Mausposition:
+
+```python
+import pyautogui
+import keyboard
+from time import sleep
+
+stop = False
+
+
+def on_press(key):
+    global stop
+    if key.name == "space":
+        print(tuple(pyautogui.position()))
+    elif key.name == "esc":
+        stop = True
+
+
+keyboard.on_press(on_press)
+
+while not stop:
+    sleep(0.1)
+```
+
+<div style="page-break-after: always;"></div>
