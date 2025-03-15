@@ -170,6 +170,8 @@ z = float("3")   # z wird 3.0
 w = float("4.2") # w wird 4.2
 ```
 
+<div style="page-break-after: always;"></div>
+
 #### String-Casting
 
 ```python
@@ -212,6 +214,8 @@ if alter < 16:
 ```
 
 In diesem Beispiel wird die Nachricht "Du bist nicht alt genug" nur dann ausgegeben, wenn man eine Zahl, die kleiner als 16 ist, eingibt.
+
+<div style="page-break-after: always;"></div>
 
 ### Else-Anweisung
 
@@ -258,6 +262,8 @@ if alter > 18 and jahre_im_job > 5:
     print("Du bist erfahren und erwachsen.")
 ```
 
+<div style="page-break-after: always;"></div>
+
 #### Or
 
 Der `or`-Operator wird verwendet, um zu überprüfen, ob mindestens eine von mehreren Bedingungen wahr ist.
@@ -298,6 +304,8 @@ while count < 5:
 ```
 
 In diesem Beispiel wird die Zahl von 0 bis 4 ausgegeben. Die Schleife läuft, solange `count` kleiner als 5 ist.
+
+<div style="page-break-after: always;"></div>
 
 ### Break
 
@@ -344,6 +352,8 @@ while password != "ananas":
 ```
 
 In diesem Beispiel wird das Programm so lange nach dem Passwort fragen, bis du "ananas" eingibst. Dann wird "Zugang gewährt!" ausgegeben.
+
+<div style="page-break-after: always;"></div>
 
 ## 7. For Loops
 
@@ -394,6 +404,8 @@ Um eine Funktion auszuführen, rufen wir sie einfach mit ihrem Namen und Klammer
 begruessung()
 ```
 
+<div style="page-break-after: always;"></div>
+
 ### Funktionen mit Parametern
 
 Funktionen können Parameter akzeptieren, um flexibler zu sein.
@@ -435,5 +447,3 @@ personalisierte_begruessung("Jaron", 14)
 Funktionen sind ein grundlegendes Werkzeug in Python, das dir hilft, deinen Code besser zu organisieren und wiederzuverwenden.
 
 **Das war's mit den Grundlagen von Python.**
-
-Als kleine Extraaufgabe: Findest du heraus, was `print(f"Hallo, {name}! Du bist {alter} Jahre alt.")` zu bedeuten hat?
